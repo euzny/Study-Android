@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab1"
+        android:enabled="true"
+        android:icon="@drawable/user"
+        android:title="친구"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab2"
+        android:icon="@drawable/talk"
+        android:title="톡"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab3"
+        android:icon="@drawable/eye"
+        android:title="뷰"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab4"
+        android:icon="@drawable/shopping"
+        android:title="쇼핑"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab5"
+        android:icon="@drawable/etc"
+        android:title="기타"
+        app:showAsAction="ifRoom" />
+
+</menu>

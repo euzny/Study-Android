@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="자판기 프로그램"
+            android:gravity="center_horizontal"
+            android:textSize="28dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/colas"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="20dp" />
+                    <TextView
+                        android:id="@+id/menu1"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:text="콜라 800원"
+                        android:layout_alignLeft="@id/img1"
+                        android:layout_below="@id/img1"
+                        android:gravity="center"/>
+                  <TextView
+                        android:id="@+id/left_bo1"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                      android:text="10개 남음"
+                        android:layout_alignLeft="@id/img1"
+                        android:layout_below="@id/menu1"
+                        android:gravity="center"/>
+                    <Button
+                        android:id="@+id/bo1"
+                        android:layout_below="@id/left_bo1"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_alignLeft="@id/img1"
+                        android:text="주문하기" />
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/fanta"
+                    android:layout_toRightOf="@id/img1"
+                    android:layout_alignTop="@id/img1"
+                    android:layout_marginLeft="60dp" />
+            <TextView
+                android:id="@+id/menu2"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="환타 800원"
+                android:layout_alignLeft="@id/img2"
+                android:layout_below="@id/img2"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/left_bo2"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text=" 10개 남음"
+                android:layout_alignLeft="@id/img2"
+                android:layout_below="@id/menu2"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/bo2"
+                android:layout_below="@id/left_bo2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@id/img2"
+                android:text="주문하기" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/mount" />
+            <TextView
+                android:id="@+id/menu3"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="마운틴듀 700원"
+                android:layout_alignLeft="@id/img3"
+                android:layout_below="@id/img3"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/left_bo3"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="10개 남음"
+                android:layout_alignLeft="@id/img3"
+                android:layout_below="@id/menu3"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/bo3"
+                android:layout_below="@id/left_bo3"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@id/img3"
+                android:text="주문하기" />
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cider"
+                android:layout_toRightOf="@id/img3"
+                android:layout_alignTop="@id/img3"
+                android:layout_marginLeft="60dp" />
+            <TextView
+                android:id="@+id/menu4"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text=" 사이다 800원"
+                android:layout_alignLeft="@id/img4"
+                android:layout_below="@id/img4"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/left_bo4"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text=" 10개 남음"
+                android:layout_alignLeft="@id/img4"
+                android:layout_below="@id/menu4"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/bo4"
+                android:layout_below="@id/left_bo4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@id/img4"
+                android:text="주문하기" />
+
+        </RelativeLayout>
+
+    </LinearLayout>  <!-- 자판기프로그램 주문하기 부분-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+        <!-- 금액 입력 input-->
+        <EditText
+            android:id="@+id/cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="금액을 입력하세요" />
+        <!--금액 입력 버튼-->
+        <Button
+            android:id="@+id/btn_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="금액 입력" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+            <TextView
+                android:id="@+id/left_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>  <!-- 금액입력부분 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btn_return"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="잔돈반환" />
+
+    </LinearLayout>  <!--잔돈반환 버튼-->
+
+
+
+</LinearLayout>

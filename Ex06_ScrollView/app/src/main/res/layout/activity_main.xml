@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이미지바꾸기"  />
+    
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgv1"
+                android:layout_width="2000dp"
+                android:layout_height="2000dp"
+                android:src="@drawable/sky1"
+                android:scaleType="fitXY"
+                />
+            <ImageView
+                android:id="@+id/imgv2"
+                android:layout_width="2000dp"
+                android:layout_height="2000dp"
+                android:src="@drawable/sky2"
+                android:scaleType="fitXY"
+                />
+        </FrameLayout>
+    </ScrollView>
+    </HorizontalScrollView>
+</LinearLayout>

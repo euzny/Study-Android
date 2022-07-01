@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="480dp"
+    android:background="#E8F4FF"
+    android:orientation="vertical"
+    tools:context=".customer.CusDetailActivity">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="누구누구의 고객정보"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:textColor="#000"
+        android:gravity="right"
+        android:textSize="15dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="아이디: " />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/tv_id"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="3" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="이름: "
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="3" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#000"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성별: "
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/tv_male"
+            android:textSize="15dp"
+            android:layout_weight="1.5"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="남" />
+        <RadioButton
+            android:id="@+id/tv_female"
+            android:text="여"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:layout_weight="1.5"
+            android:padding="10dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#000"
+            android:gravity="right"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:text="핸드폰: " />
+
+        <EditText
+            android:id="@+id/tv_phone"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="3" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_modify"
+            android:backgroundTint="#009688"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="수정하기"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/btn_delete"
+            android:backgroundTint="#DD3E3E"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="삭제하기"
+            android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>

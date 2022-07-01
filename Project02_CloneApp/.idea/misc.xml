@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/drawable/btm_nav_color.xml" value="0.101" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/activity_main.xml" value="0.3515625" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/fragment_chat.xml" value="0.29739583333333336" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/fragment_friend.xml" value="0.25" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/fragment_friendd.xml" value="0.28541666666666665" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/fragment_shop.xml" value="0.284375" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/fragment_view.xml" value="0.3567708333333333" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/fragment_view1.xml" value="0.3859375" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/item_chat.xml" value="0.33" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/item_friend.xml" value="0.2947916666666667" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/item_friend1.xml" value="0.28541666666666665" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/item_shop.xml" value="0.25" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/layout/item_view.xml" value="0.3567708333333333" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/menu/bottom_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Study_Android/WorkSpace/Project02_CloneApp/app/src/main/res/menu/option_menu.xml" value="0.24114583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
